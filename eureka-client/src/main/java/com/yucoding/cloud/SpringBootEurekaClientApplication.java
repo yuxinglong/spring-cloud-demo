@@ -6,8 +6,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SpringBootMyApplication {
+public class SpringBootEurekaClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootMyApplication.class,args);
+        SpringApplication.run(SpringBootEurekaClientApplication.class,args);
     }
 }
